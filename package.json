@@ -4,7 +4,7 @@
   "description": "A node server library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start:dev": "ts-node-dev --respawn --transpile-only ./src/example.ts"
   },
   "repository": {
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/lindellcarternyc/lc-server#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
     "ts-node-dev": "^1.1.7",
     "typescript": "^4.3.5"
   }
